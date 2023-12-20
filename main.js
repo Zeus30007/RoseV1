@@ -109,18 +109,18 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +916909137213")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +27795093088")))
             process.exit(0)
          }
       } else {
-         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +916909137213 : `)))
+         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +27795093088 : `)))
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          // Ask again when entering the wrong number
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +916909137213")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +27795093088")))
 
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +916909137213 : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +27795093088 : `)))
             phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
             rl.close()
          }
@@ -303,8 +303,8 @@ XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
  mentionedJid:[num],
- "externalAdReply": {"showAdAttribution": true,
- "containsAutoReply": true,
+ "externalAdReply": {"showAdAttribution": false,
+ "containsAutoReply": false,
  "title": ` ${global.botname}`,
 "body": `${ownername}`,
  "previewType": "PHOTO",
@@ -331,8 +331,8 @@ XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
  mentionedJid:[num],
- "externalAdReply": {"showAdAttribution": true,
- "containsAutoReply": true,
+ "externalAdReply": {"showAdAttribution": false,
+ "containsAutoReply": false,
  "title": ` ${global.botname}`,
 "body": `${ownername}`,
  "previewType": "PHOTO",
@@ -344,7 +344,7 @@ const xeonbuffer = await getBuffer(ppuser)
 const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 let xeonName = num
-xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, you have been *promoted* to *admin* 🥳`
+xeonbody = ` Congratulations @${xeonName.split("@")[0]}, you have been *given* a Death note page ☦︎📄 ݈݇`
    XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -362,7 +362,7 @@ const xeonbuffer = await getBuffer(ppuser)
 const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 let xeonName = num
-xeonbody = `𝗢𝗼𝗽𝘀‼️ @${xeonName.split("@")[0]}, you have been *demoted* from *admin* 😬`
+xeonbody = ` hahahaha @${xeonName.split("@")[0]}, you have *run out* of death note ☦︎📄 ݈݇ sad😆`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
