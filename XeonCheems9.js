@@ -5964,51 +5964,51 @@ const reply = `
     return replygcxeon(`*${q}* isn't a valid text`)
     }
     break
-                case 'Maiki': {
-            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} who is he?`)
+                case '': {
+            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} ?`)
             	let bisa = [`holder of death note📓`]
                 let keh = bisa[Math.floor(Math.random() * bisa.length)]
-                let jawab = `*Maiki ${text}*\nAnswer : ${keh}`
+                let jawab = `* ${text}*\nAnswer : ${keh}`
             await replygcxeon(jawab)
             }
             break
-            case 'Nathan': {
-            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} who is he?`)
+            case '': {
+            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} ?`)
             	let apa = [`holder of death note`]
                 let kah = apa[Math.floor(Math.random() * apa.length)]
-                let jawab = `*Nathan ${text}*\nAnswer : ${kah}`                
+                let jawab = `* ${text}*\nAnswer : ${kah}`                
             await replygcxeon(jawab)
             }
             break
-            case 'when': {
-            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} are you going to be death note holder??`)
+            case '': {
+            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} `)
             	let kapan = ['never😂 except if you are Nathan or maiki']
                 let koh = kapan[Math.floor(Math.random() * kapan.length)]
-                let jawab = `*when ${command} ${text}*\nAnswer : ${koh}`                
+                let jawab = `* ${command} ${text}*\nAnswer : ${koh}`                
             await replygcxeon(jawab)
             }
             break
-case 'who': {
-            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} Maiki and Nathan?`)
+case '': {
+            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} `)
             	let lel = [`Ask Your Gf`, `I Dont Know`, `I Don't Know, Ask Your Father`]
                 let kah = lel[Math.floor(Math.random() * lel.length)]
-                let jawab = `*What ${text}*\nAnswer : ${kah}`                
+                let jawab = `* ${text}*\nAnswer : ${kah}`                
             await replygcxeon(jawab)
             }
             break
-case 'where': {
-if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} is the death note??`)
+case '': {
+if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} `)
             	let wherelol = [`ask Nathan`, `ask Maiki`]
                 let kah = wherelol[Math.floor(Math.random() * wherelol.length)]
-                let jawab = `*Whwre ${text}*\nAnswer : ${kah}`              
+                let jawab = `* ${text}*\nAnswer : ${kah}`              
             await replygcxeon(jawab)
             }
             break
-case 'how': {
-            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} to become death note holder?`)
+case '': {
+            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} ?`)
             	let gimana = [`Ummm...`, `It's Difficult Bro`, `Sorry Bot Can't Answer`, `Try Searching On Google`,`Holy Cow! Really???`,`Dizzy Ah😴, don't wanna answer`,`Ohhh I See:(`,`The Patient, Boss:(`,`Really dude 🙄`]
                 let kah = gimana[Math.floor(Math.random() * gimana.length)]
-                let jawab = `*How ${text}*\nAnswer : ${kah}`                
+                let jawab = `* ${text}*\nAnswer : ${kah}`                
             await replygcxeon(jawab)
             }
             break
