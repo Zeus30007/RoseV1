@@ -289,11 +289,7 @@ XeonLft = await getBuffer(ppuser)
                 const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
-                xeonbody = `┌─❖
- ☦︎📓 ݈݇@${xeonName.split("@")[0]}  
-   ☦︎📓 ݈݇𝗝𝗼𝗶𝗻𝗲𝗱
-   ☦︎📓 ݈݇  ${metadata.subject}
-   └☻% 𝐃𝐄𝐀𝐓𝐇 𝐍𖣠𝐓𝐄 ☦︎📓┈ ⳹`
+                xeonbody = ``
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -312,11 +308,7 @@ XeonBotInc.sendMessage(anu.id,
 	                const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
-                    xeonbody = `┌─❖
-𝗚𝗼𝗼𝗱𝗯𝘆𝗲
-   ☦︎📓 ݈݇「 @${xeonName.split("@")[0]}  」
-   ☦︎📓 ݈݇ 𝗟𝗲𝗳𝘁 
-   └☻% 𝐃𝐄𝐀𝐓𝐇 𝐍𖣠𝐓𝐄 ☦︎📓┈ ⳹`
+                    xeonbody = ``
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -379,7 +371,7 @@ console.log(err)
             return msg?.message
         }
         return {
-            conversation: "Cheems Bot Here"
+            conversation: "Ryuk Bot Here"
         }
     }
     XeonBotInc.ev.on('messages.update', async chatUpdate => {
