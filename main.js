@@ -283,44 +283,20 @@ ppgroup = 'https://i.ibb.co/RBx5SQC/avatar-group-large-v2.png?q=60'
 memb = metadata.participants.length
 XeonWlcm = await getBuffer(ppuser)
 XeonLft = await getBuffer(ppuser)
-                if (anu.action == 'add') {
+                if (anu.action == 'sghshs') {
                 const xeonbuffer = await getBuffer(ppuser)
                 let xeonName = num
                 const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
-                xeonbody = ``
-XeonBotInc.sendMessage(anu.id,
- { text: xeonbody,
- contextInfo:{
- mentionedJid:[num],
- "externalAdReply": {"showAdAttribution": false,
- "containsAutoReply": false,
- "title": ` ${global.botname}`,
-"body": `${ownername}`,
- "previewType": "PHOTO",
-"thumbnailUrl": ``,
-"thumbnail": XeonWlcm,
-"sourceUrl": `${wagc}`}}})
+                
                 } else if (anu.action == 'remove') {
                 	const xeonbuffer = await getBuffer(ppuser)
                     const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 	                const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
-                    xeonbody = ``
-XeonBotInc.sendMessage(anu.id,
- { text: xeonbody,
- contextInfo:{
- mentionedJid:[num],
- "externalAdReply": {"showAdAttribution": false,
- "containsAutoReply": false,
- "title": ` ${global.botname}`,
-"body": `${ownername}`,
- "previewType": "PHOTO",
-"thumbnailUrl": ``,
-"thumbnail": XeonLft,
-"sourceUrl": `${wagc}`}}})
+                    
 } else if (anu.action == 'promote') {
 const xeonbuffer = await getBuffer(ppuser)
 const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
