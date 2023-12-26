@@ -1530,7 +1530,7 @@ const repf = await XeonBotInc.sendMessage(from, {
 contacts: { 
 displayName: `${list.length} Contact`, 
 contacts: list }, mentions: [sender] }, { quoted: m })
-XeonBotInc.sendMessage(from, { text : ``@${sender.split("@")[0]}, All hail the Hitler society 卐 mentions: [sender]}, { quoted: repf })
+XeonBotInc.sendMessage(from, { text : `@${sender.split("@")[0]}, All hail the Hitler society 卐`, mentions: [sender]}, { quoted: repf })
 }
 break
 case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
@@ -1595,7 +1595,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 卐.bugmenu
 卐.othermenu
 
-卐ɴᴀᴢɪ卐 ⳹`
+卐ɴᴀᴢɪ卐----`
             let ments = [ownernya, me, mark]        
            XeonBotInc.sendMessage(from, { 
 text: xeonezy,
