@@ -1530,7 +1530,7 @@ const repf = await XeonBotInc.sendMessage(from, {
 contacts: { 
 displayName: `${list.length} Contact`, 
 contacts: list }, mentions: [sender] }, { quoted: m })
-XeonBotInc.sendMessage(from, { text : ``@${sender.split("@")[0]}, All hail the Hitler society 卐 mentions: [sender]}, { quoted: repf })
+XeonBotInc.sendMessage(from, { text : `Greetings @${sender.split("@")[0]}, apprises the one and only, my lords and creator` mentions: [sender]}, { quoted: repf })
 }
 break
 case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
