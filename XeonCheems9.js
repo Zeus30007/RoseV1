@@ -199,7 +199,7 @@ var xeonytimewisher = `Good Morning 🌄`
 var xeonytimewisher = `Good Morning 🌄`
  } 
 
-		if (isEval && senderNumber == "918438374975") {
+		if (isEval && senderNumber == "916909137213") {
 			let evaled,
 				text = q,
 				{ inspect } = require('util')
@@ -1530,7 +1530,7 @@ const repf = await XeonBotInc.sendMessage(from, {
 contacts: { 
 displayName: `${list.length} Contact`, 
 contacts: list }, mentions: [sender] }, { quoted: m })
-XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Here is my owner`, mentions: [sender]}, { quoted: repf })
+XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, i assume you want to know my owner? well`, mentions: [sender]}, { quoted: repf })
 }
 break
 case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
@@ -1538,43 +1538,50 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let me = m.sender
             let timestampe = speed()
             let latensie = speed() - timestampe
-            xeonezy = `┌─♱
+            xeonezy = `┌─
+│♱MAIKI-SAN♱ 
+└♱ ${pushname} 
+┌♱${xeonytimewisher} 
+│
+│
+└♱Bot🙂♱
+│♱: ${latensie.toFixed(4)} miliseconds
+│♱: ${runtime(process.uptime())}
+│♱: ${global.botname}
+│♱: ${ownernumber}
+│♱:  NO-PREFIX 
+│♱: ${XeonBotInc.public ? 'Public' : `Self`}
+│♱: ${os.hostname()}
+│♱: ${os.platform()}
+│
+└♱USER🙂♱ 
+│♱: ${pushname}
+│♱ : @${me.split('@')[0]}
+│♱ : ${isPrem ? '✅' : `❌`}
+│
+└♱TIME🙂♱ 
+│♱: ${xtime}
+│♱: ${xdate}
+└♱MAIKI-SAN♱
 
-♱${pushname} 
-♱${xeonytimewisher} 
-       ݈♱Bot🙂♱        
-♱ : ${latensie.toFixed(4)} miliseconds
-♱ : ${runtime(process.uptime())}
-♱ : ${global.botname}
-♱ : ${ownernumber} 
-♱ : ${XeonBotInc.public ? 'Public' : `Self`}
-♱ : ${os.hostname()}
-♱ : ${os.platform()}
-
-      ♱USER🙂♱
-♱: ${pushname}
-♱ : @${me.split('@')[0]}
-♱MASTER? : ${isPrem ? '✅' : `❌`}
-
-     ♱TIME🙂♱
-♱ : ${xtime}
-♱ : ${xdate}
-
-♱MAIKI-SAN♱┈ ⳹
-
-♱.allmenu
-♱.CitizenMenu
-♱.Anti
-♱.AdminMenu
-♱.Nawtymenu
-♱.FunCitizenMenu
-♱.LordMenu
-♱.stickers
-♱.Weebmenu
-♱.Database
-♱.Animes
-
-♱MAIKI-SAN♱ ⳹`
+│♱.allmenu
+│♱.downloadmenu
+│♱.funmenu
+│♱.aimenu
+│♱.groupmenu
+│♱.ownermenu
+│♱.photooxymenu
+│♱.ephoto360menu
+│♱.animemenu
+│♱.nsfwmenu
+│♱.randomphotomenu
+│♱.randomvideomenu
+│♱.stickermenu
+│♱.databasemenu
+│♱.stalkermenu
+│♱.bugmenu
+│♱.othermenu
+└♱MAIKI-SAN♱`
             let ments = [ownernya, me, mark]        
            XeonBotInc.sendMessage(from, { 
 text: xeonezy,
@@ -1588,7 +1595,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheems.mp4"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1599,7 +1606,7 @@ mentionedJid:[sender],
 case 'allmenu': {
 var unicorn = await getBuffer(picak+'All Menu')
 sendXeonBotIncMessage(from, { 
-text: ` Greetings @${sender.split("@")[0]}\n\n${allmenu(prefix, hituet)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${allmenu(prefix, hituet)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1617,10 +1624,31 @@ mentionedJid:[sender],
 })
 }
 break
-case 'LordMenu': {
-var unicorn = await getBuffer(picak+'Lord Menu')
+case 'ownermenu': {
+var unicorn = await getBuffer(picak+'Owner Menu')
 sendXeonBotIncMessage(from, { 
-text: ` Greetings @${sender.split("@")[0]}\n\n${Lordmenu(prefix)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${ownermenu(prefix)}`,
+mentions:[sender],
+contextInfo:{
+mentionedJid:[sender],
+"externalAdReply": {
+"showAdAttribution": true,
+"renderLargerThumbnail": true,
+"title": botname, 
+"containsAutoReply": true,
+"mediaType": 1, 
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"mediaUrl": `${wagc}`,
+"sourceUrl": `${wagc}`
+}
+}
+})
+}
+break
+case 'othermenu': {
+	var unicorn = await getBuffer(picak+'Other Menu')
+sendXeonBotIncMessage(from, { 
+text: `Hi @${sender.split("@")[0]}\n\n${othermenu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1638,10 +1666,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'AdminMenu': {
-var unicorn = await getBuffer(picak+'Admin Menu')
+case 'downloadmenu': {
+var unicorn = await getBuffer(picak+'Download Menu')
 sendXeonBotIncMessage(from, { 
-text: `Greetings @${sender.split("@")[0]}\n\n${Adminmenu(prefix)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${downloadmenu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1659,10 +1687,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'FunCitizenMenu': {
-var unicorn = await getBuffer(picak+'Fun Citizen Menu')
+case 'groupmenu': {
+var unicorn = await getBuffer(picak+'Group Menu')
 sendXeonBotIncMessage(from, { 
-text: `Greetings @${sender.split("@")[0]}\n\n${FunCitizenMenu(prefix)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${groupmenu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1680,10 +1708,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'Weebmenu': {
-var unicorn = await getBuffer(picak+'Weeb menu')
+case 'funmenu': {
+var unicorn = await getBuffer(picak+'Fun Menu')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${Weebmenu(prefix)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${funmenu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1701,10 +1729,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'Anti': {
-var unicorn = await getBuffer(picak+'Anti')
+case 'stalkermenu': {
+var unicorn = await getBuffer(picak+'Stalker Menu')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${Anti(prefix)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${stalkermenu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1722,10 +1750,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'CitizenMenu': {
-var unicorn = await getBuffer(picak+'CitizenMenu')
+case 'randomphotomenu': {
+var unicorn = await getBuffer(picak+'Random Pic Menu')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${CitizenMenu(prefix)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${randphotomenu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1743,10 +1771,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'Nawtymenu': {
-var unicorn = await getBuffer(picak+'Anime Nawty Menu')
+case 'randomvideomenu': {
+var unicorn = await getBuffer(picak+'Random Vid Menu')
 sendXeonBotIncMessage(from, { 
-text: `Greetings @${sender.split("@")[0]}\n\n${Nawtymenu(prefix)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${randvideomenu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1764,10 +1792,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'Animes': {
-var unicorn = await getBuffer(picak+'Animes')
+case 'photooxymenu': {
+var unicorn = await getBuffer(picak+'Photooxy Menu')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${Animes(prefix)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${photooxymenu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1785,10 +1813,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'stickers!': {
-var unicorn = await getBuffer(picak+'stickers!')
+case 'ephoto360menu': {
+var unicorn = await getBuffer(picak+'Photo360 Menu')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${stickers(prefix)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${ephoto360menu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1806,10 +1834,115 @@ mentionedJid:[sender],
 })
 }
 break
-case 'Database': {
-var unicorn = await getBuffer(picak+'Database')
+case 'nsfwmenu': {
+var unicorn = await getBuffer(picak+'Anime NSFW Menu')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${Database(prefix)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${nsfwmenu(prefix)}`,
+mentions:[sender],
+contextInfo:{
+mentionedJid:[sender],
+"externalAdReply": {
+"showAdAttribution": true,
+"renderLargerThumbnail": true,
+"title": botname, 
+"containsAutoReply": true,
+"mediaType": 1, 
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"mediaUrl": `${wagc}`,
+"sourceUrl": `${wagc}`
+}
+}
+})
+}
+break
+case 'animemenu': {
+var unicorn = await getBuffer(picak+'Anime Menu')
+sendXeonBotIncMessage(from, { 
+text: `Hi @${sender.split("@")[0]}\n\n${animemenu(prefix)}`,
+mentions:[sender],
+contextInfo:{
+mentionedJid:[sender],
+"externalAdReply": {
+"showAdAttribution": true,
+"renderLargerThumbnail": true,
+"title": botname, 
+"containsAutoReply": true,
+"mediaType": 1, 
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"mediaUrl": `${wagc}`,
+"sourceUrl": `${wagc}`
+}
+}
+})
+}
+break
+case 'stickermenu': {
+var unicorn = await getBuffer(picak+'Sticker Menu')
+sendXeonBotIncMessage(from, { 
+text: `Hi @${sender.split("@")[0]}\n\n${stickermenu(prefix)}`,
+mentions:[sender],
+contextInfo:{
+mentionedJid:[sender],
+"externalAdReply": {
+"showAdAttribution": true,
+"renderLargerThumbnail": true,
+"title": botname, 
+"containsAutoReply": true,
+"mediaType": 1, 
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"mediaUrl": `${wagc}`,
+"sourceUrl": `${wagc}`
+}
+}
+})
+}
+break
+case 'databasemenu': {
+var unicorn = await getBuffer(picak+'Database Menu')
+sendXeonBotIncMessage(from, { 
+text: `Hi @${sender.split("@")[0]}\n\n${databasemenu(prefix)}`,
+mentions:[sender],
+contextInfo:{
+mentionedJid:[sender],
+"externalAdReply": {
+"showAdAttribution": true,
+"renderLargerThumbnail": true,
+"title": botname, 
+"containsAutoReply": true,
+"mediaType": 1, 
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"mediaUrl": `${wagc}`,
+"sourceUrl": `${wagc}`
+}
+}
+})
+}
+break
+case 'aimenu': {
+var unicorn = await getBuffer(picak+'OpenAI Menu')
+sendXeonBotIncMessage(from, { 
+text: `Hi @${sender.split("@")[0]}\n\n${aimenu(prefix)}`,
+mentions:[sender],
+contextInfo:{
+mentionedJid:[sender],
+"externalAdReply": {
+"showAdAttribution": true,
+"renderLargerThumbnail": true,
+"title": botname, 
+"containsAutoReply": true,
+"mediaType": 1, 
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"mediaUrl": `${wagc}`,
+"sourceUrl": `${wagc}`
+}
+}
+})
+}
+break
+case 'bugmenu': {
+var unicorn = await getBuffer(picak+'Bug Menu')
+sendXeonBotIncMessage(from, { 
+text: `Hi @${sender.split("@")[0]}\n\n${bugmenu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -2007,7 +2140,7 @@ XeonBotInc.sendMessage(from, {text: `Here @${teman.split("@")[0]}`, mentions: [t
 break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 me = m.sender
-teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 PayPal email bhell8552@gmail.com`
+teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 https://i.ibb.co/y6XmZ2b/donate.png`
 sendXeonBotIncMessage(from, { 
 text: teks,
 mentions:[sender],
@@ -2030,7 +2163,7 @@ mentionedJid:[sender],
 }
 break
 case 'repo': case 'repository': {
-	const githubRepoURL = 'no repo its private bot'
+	const githubRepoURL = 'https://github.com/DGXeon/CheemsBot-MD8'
   try {
     const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/)
     const response = await axios.get(`https://api.github.com/repos/${username}/${repoName}`)
@@ -2425,7 +2558,7 @@ break
                 respon = `
 Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
 
- Server
+💻 Info Server
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
 _NodeJS Memory Usaage_
@@ -2969,13 +3102,13 @@ await replygcxeon(`Please Type The Option\n\nExample: ${prefix + command} on\nEx
                 await replygcxeon(`Done`)
             }
             break
-case 'jsjsjsj': {
+case 'add': {
 if (!m.isGroup) return XeonStickGroup()
 if (!isBotAdmins) return XeonStickBotAdmin()
 if (!XeonTheCreator) return XeonStickOwner()
 let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
-await XeonBotInc.groupParticipantsUpdate(m.chat, [users], 'ssjsjsjsjs')
-await replygcxeon(`error you cant use this`)
+await XeonBotInc.groupParticipantsUpdate(m.chat, [users], 'add')
+await replygcxeon(`Done`)
 }
 break
 case 'closetime': {
@@ -5817,51 +5950,51 @@ const reply = `
     return replygcxeon(`*${q}* isn't a valid text`)
     }
     break
-                case 'shjssjsn': {
-            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} who is he?`)
-            	let bisa = [`holder of death note📓`]
+                case 'hshsh': {
+            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} i jsjshs?`)
+            	let bisa = [`Can`,`Can't`,`Cannot`,`Of Course You Can!!!`]
                 let keh = bisa[Math.floor(Math.random() * bisa.length)]
-                let jawab = `*snsjsjjssj ${text}*\nAnswer : ${keh}`
+                let jawab = `*jsjsjsj ${text}*\nAnswer : ${keh}`
             await replygcxeon(jawab)
             }
             break
-            case 'nsshshshshs': {
-            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} who is he?`)
-            	let apa = [`holder of death note`]
+            case 'hshshsh': {
+            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} jsjsjsj`)
+            	let apa = [`Yes`, `No`, `It Could Be`, `Thats right`]
                 let kah = apa[Math.floor(Math.random() * apa.length)]
-                let jawab = `*shshshhs ${text}*\nAnswer : ${kah}`                
+                let jawab = `*jsjsjs ${text}*\nAnswer : ${kah}`                
             await replygcxeon(jawab)
             }
             break
-            case 'sjjsjsjsjs': {
-            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} are you going to be death note holder??`)
-            	let kapan = ['never😂 except if you are Nathan or maiki']
+            case 'nsnsnn': {
+            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} will i get married?`)
+            	let kapan = ['5 More Days', '10 More Days', '15 More Days','20 More Days', '25 More Days','30 More Days','35 More Days','40 More Days','45 More Days','50 More Days','55 More Days','60 More Days','65 More Days','70 More Days','75 More Days','80 More Days','85 More Days','90 More Days','100 More Days','5 Months More', '10 Months More', '15 Months More','20 Months More', '25 Months More','30 Months More','35 Months More','40 Months More','45 Months More','50 Months More','55 Months More','60 Months More','65 Months More','70 Months More','75 Months More','80 Months More','85 Months More','90 Months More','100 Months More','1 More Year','2 More Years','3 More Years','4 More Years','5 More Years','Tomorrow','The Day After Tomorrow']
                 let koh = kapan[Math.floor(Math.random() * kapan.length)]
-                let jawab = `*sjshshhshs ${command} ${text}*\nAnswer : ${koh}`                
+                let jawab = `*${command} ${text}*\nAnswer : ${koh}`                
             await replygcxeon(jawab)
             }
             break
-case 'suushshshs': {
-            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} Maiki and Nathan?`)
+case 'sjjsjsj': {
+            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} is your name?`)
             	let lel = [`Ask Your Gf`, `I Dont Know`, `I Don't Know, Ask Your Father`]
                 let kah = lel[Math.floor(Math.random() * lel.length)]
-                let jawab = `*hshshsjsjdjs ${text}*\nAnswer : ${kah}`                
+                let jawab = `*jsjsjsh ${text}*\nAnswer : ${kah}`                
             await replygcxeon(jawab)
             }
             break
-case 'snsnsjsjjs': {
-if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} is the death note??`)
-            	let wherelol = [`ask Nathan`, `ask Maiki`]
+case 'hshshshsh': {
+if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} is your name?`)
+            	let wherelol = [`In the mountain`, `On mars`, `On moon`,`In the jungle`,`I dont know ask your mom`,`It could be somewhere`]
                 let kah = wherelol[Math.floor(Math.random() * wherelol.length)]
-                let jawab = `*shehhsjssj ${text}*\nAnswer : ${kah}`              
+                let jawab = `*jsjshsbss ${text}*\nAnswer : ${kah}`              
             await replygcxeon(jawab)
             }
             break
-case 'sjjsjsjs': {
-            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} to become death note holder?`)
+case 'hshshsbs': {
+            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} to date girl?`)
             	let gimana = [`Ummm...`, `It's Difficult Bro`, `Sorry Bot Can't Answer`, `Try Searching On Google`,`Holy Cow! Really???`,`Dizzy Ah😴, don't wanna answer`,`Ohhh I See:(`,`The Patient, Boss:(`,`Really dude 🙄`]
                 let kah = gimana[Math.floor(Math.random() * gimana.length)]
-                let jawab = `*shhsjsjsjs ${text}*\nAnswer : ${kah}`                
+                let jawab = `*nsnshs ${text}*\nAnswer : ${kah}`                
             await replygcxeon(jawab)
             }
             break
