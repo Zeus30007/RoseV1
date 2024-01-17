@@ -199,7 +199,7 @@ var xeonytimewisher = `Good Morning 🌄`
 var xeonytimewisher = `Good Morning 🌄`
  } 
 
-		if (isEval && senderNumber == "916909137213") {
+		if (isEval && senderNumber == "918438374975") {
 			let evaled,
 				text = q,
 				{ inspect } = require('util')
@@ -1530,7 +1530,7 @@ const repf = await XeonBotInc.sendMessage(from, {
 contacts: { 
 displayName: `${list.length} Contact`, 
 contacts: list }, mentions: [sender] }, { quoted: m })
-XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, i assume you want to know my owner? well`, mentions: [sender]}, { quoted: repf })
+XeonBotInc.sendMessage(from, { text : ``@${sender.split("@")[0]}, All hail the Hitler society 卐 mentions: [sender]}, { quoted: repf })
 }
 break
 case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
@@ -1538,50 +1538,64 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let me = m.sender
             let timestampe = speed()
             let latensie = speed() - timestampe
-            xeonezy = `┌─
-│♱MAIKI-SAN♱ 
-└♱ ${pushname} 
-┌♱${xeonytimewisher} 
-│
-│
-└♱Bot🙂♱
-│♱: ${latensie.toFixed(4)} miliseconds
-│♱: ${runtime(process.uptime())}
-│♱: ${global.botname}
-│♱: ${ownernumber}
-│♱:  NO-PREFIX 
-│♱: ${XeonBotInc.public ? 'Public' : `Self`}
-│♱: ${os.hostname()}
-│♱: ${os.platform()}
-│
-└♱USER🙂♱ 
-│♱: ${pushname}
-│♱ : @${me.split('@')[0]}
-│♱ : ${isPrem ? '✅' : `❌`}
-│
-└♱TIME🙂♱ 
-│♱: ${xtime}
-│♱: ${xdate}
-└♱MAIKI-SAN♱
+            xeonezy = `┌─☠︎︎
+卐ɴᴀᴢɪ ᴋɪᴛʟᴇʀ卐
 
-│♱.allmenu
-│♱.downloadmenu
-│♱.funmenu
-│♱.aimenu
-│♱.groupmenu
-│♱.ownermenu
-│♱.photooxymenu
-│♱.ephoto360menu
-│♱.animemenu
-│♱.nsfwmenu
-│♱.randomphotomenu
-│♱.randomvideomenu
-│♱.stickermenu
-│♱.databasemenu
-│♱.stalkermenu
-│♱.bugmenu
-│♱.othermenu
-└♱MAIKI-SAN♱`
+  卐  ${pushname} 
+  卐  ${xeonytimewisher} ✞︎
+  
+卐ɴᴀᴢɪ卐┈ ⳹
+                 
+            ⢀⣴⣦⡀
+     ⠀⠀ ⠀⣴⣾⣿⣿⠟⠀⠀⠀⠀
+   ⠀⠀⠀⣠⣾⣿⣿⠟⠁⠀⢀⣰⣦⡀⠀⠀
+   ⠀⠀⠀⠺⣿⣿⣿⣧⡀⠀⣴⣾⣿⣿⣿⣦⡀⠀⠀
+   ⠀⣠⣄⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⡟⠋⠻⣿⣿⣦⡀⠀
+   ⢾⣿⣿⣷⡀⠀⠀⢈⣿⣿⣿⣿⣇⠀⠀⠀⠈⢿⣿⣿⠇
+   ⠀⠙⢿⣿⣿⣦⣶⣿⣿⣿⠿⣿⣿⣷⣄⠀⠀⠀⠙⠁
+       ⠀⠙⢿⣿⣿⡿⠟⠀⠀ ⣿⣿⣿⣷⠄⠀⠀
+      ⠀⠀⠀⠙⠛⠀⠀⠀⣰⣿⣿⣿⠟⠁⠀⠀
+        ⠀⠀⠀⠀⢠⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+       ݈卐ᴋɪᴛʟᴇʀ 𝙄𝙉𝙁𝙊卐        
+卐 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+卐 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+卐 ᴋɪᴛʟᴇʀ : ${global.botname}
+卐 𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
+卐 𝗣𝗿𝗲𝗳𝗶𝘅 :  NO-PREFIX 
+卐 𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
+卐 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+卐 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+
+      卐𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊卐
+卐𝗡𝗮𝗺𝗲 : ${pushname}
+卐𝗡𝘂𝗺𝗯𝗲𝗿 : @${me.split('@')[0]}
+卐𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : ${isPrem ? '✅' : `❌`}
+
+     卐𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊卐 
+卐 𝗧𝗶𝗺𝗲 : ${xtime}
+卐 𝗗𝗮𝘁𝗲 : ${xdate}
+
+卐ɴᴀᴢɪ卐┈ ⳹
+
+卐.allmenu
+卐.downloadmenu
+卐.funmenu
+卐.aimenu
+卐.groupmenu
+卐.ownermenu
+卐.photooxymenu
+卐.ephoto360menu
+卐.animemenu
+卐.nsfwmenu
+卐.randomphotomenu
+卐.randomvideomenu
+卐.stickermenu݈.databasemenu
+卐.stalkermenu
+卐.bugmenu
+卐.othermenu
+
+卐ɴᴀᴢɪ卐 ⳹`
             let ments = [ownernya, me, mark]        
            XeonBotInc.sendMessage(from, { 
 text: xeonezy,
@@ -1595,7 +1609,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheems.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1616,7 +1630,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1637,7 +1651,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1658,7 +1672,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheems.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1679,7 +1693,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1700,7 +1714,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1721,7 +1735,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1742,7 +1756,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1763,7 +1777,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1784,7 +1798,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1805,7 +1819,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1826,7 +1840,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1847,7 +1861,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1868,7 +1882,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1889,7 +1903,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1910,7 +1924,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1931,7 +1945,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1952,7 +1966,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -3102,13 +3116,13 @@ await replygcxeon(`Please Type The Option\n\nExample: ${prefix + command} on\nEx
                 await replygcxeon(`Done`)
             }
             break
-case 'add': {
+case 'jsjsjsj': {
 if (!m.isGroup) return XeonStickGroup()
 if (!isBotAdmins) return XeonStickBotAdmin()
 if (!XeonTheCreator) return XeonStickOwner()
 let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
-await XeonBotInc.groupParticipantsUpdate(m.chat, [users], 'add')
-await replygcxeon(`Done`)
+await XeonBotInc.groupParticipantsUpdate(m.chat, [users], 'ssjsjsjsjs')
+await replygcxeon(`error you cant use this`)
 }
 break
 case 'closetime': {
@@ -5950,51 +5964,51 @@ const reply = `
     return replygcxeon(`*${q}* isn't a valid text`)
     }
     break
-                case 'hshsh': {
-            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} i jsjshs?`)
-            	let bisa = [`Can`,`Can't`,`Cannot`,`Of Course You Can!!!`]
+                case 'shjssjsn': {
+            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} who is he?`)
+            	let bisa = [`holder of death note📓`]
                 let keh = bisa[Math.floor(Math.random() * bisa.length)]
-                let jawab = `*jsjsjsj ${text}*\nAnswer : ${keh}`
+                let jawab = `*snsjsjjssj ${text}*\nAnswer : ${keh}`
             await replygcxeon(jawab)
             }
             break
-            case 'hshshsh': {
-            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} jsjsjsj`)
-            	let apa = [`Yes`, `No`, `It Could Be`, `Thats right`]
+            case 'nsshshshshs': {
+            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} who is he?`)
+            	let apa = [`holder of death note`]
                 let kah = apa[Math.floor(Math.random() * apa.length)]
-                let jawab = `*jsjsjs ${text}*\nAnswer : ${kah}`                
+                let jawab = `*shshshhs ${text}*\nAnswer : ${kah}`                
             await replygcxeon(jawab)
             }
             break
-            case 'nsnsnn': {
-            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} will i get married?`)
-            	let kapan = ['5 More Days', '10 More Days', '15 More Days','20 More Days', '25 More Days','30 More Days','35 More Days','40 More Days','45 More Days','50 More Days','55 More Days','60 More Days','65 More Days','70 More Days','75 More Days','80 More Days','85 More Days','90 More Days','100 More Days','5 Months More', '10 Months More', '15 Months More','20 Months More', '25 Months More','30 Months More','35 Months More','40 Months More','45 Months More','50 Months More','55 Months More','60 Months More','65 Months More','70 Months More','75 Months More','80 Months More','85 Months More','90 Months More','100 Months More','1 More Year','2 More Years','3 More Years','4 More Years','5 More Years','Tomorrow','The Day After Tomorrow']
+            case 'sjjsjsjsjs': {
+            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} are you going to be death note holder??`)
+            	let kapan = ['never😂 except if you are Nathan or maiki']
                 let koh = kapan[Math.floor(Math.random() * kapan.length)]
-                let jawab = `*${command} ${text}*\nAnswer : ${koh}`                
+                let jawab = `*sjshshhshs ${command} ${text}*\nAnswer : ${koh}`                
             await replygcxeon(jawab)
             }
             break
-case 'sjjsjsj': {
-            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} is your name?`)
+case 'suushshshs': {
+            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} Maiki and Nathan?`)
             	let lel = [`Ask Your Gf`, `I Dont Know`, `I Don't Know, Ask Your Father`]
                 let kah = lel[Math.floor(Math.random() * lel.length)]
-                let jawab = `*jsjsjsh ${text}*\nAnswer : ${kah}`                
+                let jawab = `*hshshsjsjdjs ${text}*\nAnswer : ${kah}`                
             await replygcxeon(jawab)
             }
             break
-case 'hshshshsh': {
-if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} is your name?`)
-            	let wherelol = [`In the mountain`, `On mars`, `On moon`,`In the jungle`,`I dont know ask your mom`,`It could be somewhere`]
+case 'snsnsjsjjs': {
+if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} is the death note??`)
+            	let wherelol = [`ask Nathan`, `ask Maiki`]
                 let kah = wherelol[Math.floor(Math.random() * wherelol.length)]
-                let jawab = `*jsjshsbss ${text}*\nAnswer : ${kah}`              
+                let jawab = `*shehhsjssj ${text}*\nAnswer : ${kah}`              
             await replygcxeon(jawab)
             }
             break
-case 'hshshsbs': {
-            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} to date girl?`)
+case 'sjjsjsjs': {
+            	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} to become death note holder?`)
             	let gimana = [`Ummm...`, `It's Difficult Bro`, `Sorry Bot Can't Answer`, `Try Searching On Google`,`Holy Cow! Really???`,`Dizzy Ah😴, don't wanna answer`,`Ohhh I See:(`,`The Patient, Boss:(`,`Really dude 🙄`]
                 let kah = gimana[Math.floor(Math.random() * gimana.length)]
-                let jawab = `*nsnshs ${text}*\nAnswer : ${kah}`                
+                let jawab = `*shhsjsjsjs ${text}*\nAnswer : ${kah}`                
             await replygcxeon(jawab)
             }
             break
