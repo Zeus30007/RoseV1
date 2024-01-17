@@ -302,7 +302,7 @@ const xeonbuffer = await getBuffer(ppuser)
 const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 let xeonName = num
-xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀卐 @${xeonName.split("@")[0]}, you have been *promoted* to *Leader* ✋`
+xeonbody = ` im impressed @${xeonName.split("@")[0]}, you have been *promoted* 🙂🤌🏼`
    XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -320,7 +320,7 @@ const xeonbuffer = await getBuffer(ppuser)
 const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 let xeonName = num
-xeonbody = `𝗢𝗼𝗽𝘀卐 @${xeonName.split("@")[0]}, you have been *demoted* from *leadership* `
+xeonbody = ` owww too bad @${xeonName.split("@")[0]}, you have been *demoted* 🙂 `
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{

@@ -22,35 +22,35 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.ownernomer = "918618971837" //ur owner number2
-global.ownername = "𓇽𝗻𝗮𝘁𝗵𝗮𝗻 𓇻" //ur owner name
+global.ownernomer = "27656096293" //ur owner number2
+global.ownername = "Queen savage👑" //ur owner name
 global.ytname = "YT: " //ur yt chanel name
 global.socialm = "GitHub: " //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
 
 //new
-global.botname = "卐KITLER卐"
-global.ownernumber = '27768124738'
-global.ownername = '卐HITLER卐'
-global.ownerNumber = ["27768124738"]
+global.botname = "♱MAIKI-SAN♱"
+global.ownernumber = '27656096293'
+global.ownername = 'QUEEN SAVAGE'
+global.ownerNumber = ["27656096293"]
 global.ownerweb = ""
 global.websitex = ""
-global.wagc = "https://chat.whatsapp.com/Bxtc63nFKB51sy4P2zay7Y"
+global.wagc = ""
 global.themeemoji = '✋'
 global.wm = "Nazi Bot Inc."
 global.botscript = 'https://github.com/Zeus30007/Mello' //script link
 global.packname = "All hail"
-global.author = "卐KITLER卐"
-global.creator = "27768124738"
+global.author = "Maiki"
+global.creator = "Maiki"
 global.prefa = ['','!','.','#','&']
 global.sessionName = 'session'
 global.hituet = 0
 
 //media target
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
+global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.mp4") //ur thumb pic
+global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.mp4") //ur logo pic
 global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.mp4") //ur thumb pic
 global.defaultpp = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60' //default pp wa
 
 //menu image maker

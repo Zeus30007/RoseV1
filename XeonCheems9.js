@@ -1530,7 +1530,7 @@ const repf = await XeonBotInc.sendMessage(from, {
 contacts: { 
 displayName: `${list.length} Contact`, 
 contacts: list }, mentions: [sender] }, { quoted: m })
-XeonBotInc.sendMessage(from, { text : `@${sender.split("@")[0]}, All hail the Hitler society 卐`, mentions: [sender]}, { quoted: repf })
+XeonBotInc.sendMessage(from, { text : ``@${sender.split("@")[0]}, All hail the Hitler society 卐 mentions: [sender]}, { quoted: repf })
 }
 break
 case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
@@ -1546,56 +1546,50 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
   
 卐ɴᴀᴢɪ卐┈ ⳹
                  
-             ⢀⣴⣦⡀
-     ⠀⠀  ⠀⣴⣾⣿⣿⠟⠀⠀⠀⠀
-   ⠀⠀ ⠀⣠⣾⣿⣿⠟⠁⠀⢀⣰⣦⡀⠀⠀
-   ⠀⠀ ⠀⠺⣿⣿⣿⣧⡀⠀⣴⣾⣿⣿⣿⣦⡀⠀⠀
-   ⠀⣠⣄⠀ ⠈⠻⣿⣿⣿⣿⣿⣿⡟⠋⠻⣿⣿⣦⡀⠀
-   ⢾⣿⣿⣷⡀⠀⠀⢈⣿⣿⣿⣿⣇⠀⠀ ⠈⢿⣿⣿⠇
-    ⠀⠙⢿⣿⣿⣦⣶⣿⣿⣿⠿⣿⣿⣷⣄⠀⠀ ⠀⠙⠁
-       ⠀⠙⢿⣿⣿⡿⠟⠀⠀⣿⣿⣿⣷⠄⠀⠀
-      ⠀ ⠀⠀⠙⠛⠀⠀⣰⣿⣿⣿⠟⠁⠀⠀
+            ⢀⣴⣦⡀
+     ⠀⠀ ⠀⣴⣾⣿⣿⠟⠀⠀⠀⠀
+   ⠀⠀⠀⣠⣾⣿⣿⠟⠁⠀⢀⣰⣦⡀⠀⠀
+   ⠀⠀⠀⠺⣿⣿⣿⣧⡀⠀⣴⣾⣿⣿⣿⣦⡀⠀⠀
+   ⠀⣠⣄⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⡟⠋⠻⣿⣿⣦⡀⠀
+   ⢾⣿⣿⣷⡀⠀⠀⢈⣿⣿⣿⣿⣇⠀⠀⠀⠈⢿⣿⣿⠇
+   ⠀⠙⢿⣿⣿⣦⣶⣿⣿⣿⠿⣿⣿⣷⣄⠀⠀⠀⠙⠁
+       ⠀⠙⢿⣿⣿⡿⠟⠀⠀ ⣿⣿⣿⣷⠄⠀⠀
+      ⠀⠀⠀⠙⠛⠀⠀⠀⣰⣿⣿⣿⠟⠁⠀⠀
         ⠀⠀⠀⠀⢠⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
-       ݈卐ᴋɪᴛʟᴇʀ 𝙄𝙉𝙁𝙊卐        
-卐 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-卐 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-卐 ᴋɪᴛʟᴇʀ : ${global.botname}
-卐 𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
-卐 𝗣𝗿𝗲𝗳𝗶𝘅 :  NO-PREFIX 
-卐 𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
-卐 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-卐 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+       ݈♱Bot🙂♱        
+♱ : ${latensie.toFixed(4)} miliseconds
+♱ : ${runtime(process.uptime())}
+♱ : ${global.botname}
+♱ : ${ownernumber} 
+♱ : ${XeonBotInc.public ? 'Public' : `Self`}
+♱ : ${os.hostname()}
+♱ : ${os.platform()}
 
-      卐𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊卐
-卐𝗡𝗮𝗺𝗲 : ${pushname}
-卐𝗡𝘂𝗺𝗯𝗲𝗿 : @${me.split('@')[0]}
-卐𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : ${isPrem ? '✅' : `❌`}
+      ♱USER🙂♱
+♱: ${pushname}
+♱ : @${me.split('@')[0]}
+♱MASTER? : ${isPrem ? '✅' : `❌`}
 
-     卐𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊卐 
-卐 𝗧𝗶𝗺𝗲 : ${xtime}
-卐 𝗗𝗮𝘁𝗲 : ${xdate}
+     ♱TIME🙂♱
+♱ : ${xtime}
+♱ : ${xdate}
 
-卐ɴᴀᴢɪ卐┈ ⳹
+♱MAIKI-SAN♱┈ ⳹
 
-卐.allmenu
-卐.downloadmenu
-卐.funmenu
-卐.aimenu
-卐.groupmenu
-卐.ownermenu
-卐.photooxymenu
-卐.ephoto360menu
-卐.animemenu
-卐.nsfwmenu
-卐.randomphotomenu
-卐.randomvideomenu
-卐.stickermenu݈.databasemenu
-卐.stalkermenu
-卐.bugmenu
-卐.othermenu
+♱.allmenu
+♱.CitizenMenu
+♱.Anti
+♱.AdminMenu
+♱.Nawtymenu
+♱.FunCitizenMenu
+♱.LordMenu
+♱.stickers
+♱.Weebmenu
+♱.Database
+♱.Animes
 
-卐ɴᴀᴢɪ卐----`
+♱MAIKI-SAN♱ ⳹`
             let ments = [ownernya, me, mark]        
            XeonBotInc.sendMessage(from, { 
 text: xeonezy,
@@ -1620,7 +1614,7 @@ mentionedJid:[sender],
 case 'allmenu': {
 var unicorn = await getBuffer(picak+'All Menu')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${allmenu(prefix, hituet)}`,
+text: ` Greetings @${sender.split("@")[0]}\n\n${allmenu(prefix, hituet)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1630,7 +1624,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1638,10 +1632,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'ownermenu': {
-var unicorn = await getBuffer(picak+'Owner Menu')
+case 'LordMenu': {
+var unicorn = await getBuffer(picak+'Lord Menu')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${ownermenu(prefix)}`,
+text: ` Greetings @${sender.split("@")[0]}\n\n${Lordmenu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1651,7 +1645,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheems.mp4"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1659,10 +1653,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'othermenu': {
-	var unicorn = await getBuffer(picak+'Other Menu')
+case 'AdminMenu': {
+var unicorn = await getBuffer(picak+'Admin Menu')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${othermenu(prefix)}`,
+text: `Greetings @${sender.split("@")[0]}\n\n${Adminmenu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1672,7 +1666,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1680,10 +1674,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'downloadmenu': {
-var unicorn = await getBuffer(picak+'Download Menu')
+case 'FunCitizenMenu': {
+var unicorn = await getBuffer(picak+'Fun Citizen Menu')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${downloadmenu(prefix)}`,
+text: `Greetings @${sender.split("@")[0]}\n\n${FunCitizenMenu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1693,7 +1687,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1701,10 +1695,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'groupmenu': {
-var unicorn = await getBuffer(picak+'Group Menu')
+case 'Weebmenu': {
+var unicorn = await getBuffer(picak+'Weeb menu')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${groupmenu(prefix)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${Weebmenu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1714,7 +1708,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1722,10 +1716,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'funmenu': {
-var unicorn = await getBuffer(picak+'Fun Menu')
+case 'Anti': {
+var unicorn = await getBuffer(picak+'Anti')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${funmenu(prefix)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${Anti(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1735,7 +1729,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1743,10 +1737,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'stalkermenu': {
-var unicorn = await getBuffer(picak+'Stalker Menu')
+case 'CitizenMenu': {
+var unicorn = await getBuffer(picak+'CitizenMenu')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${stalkermenu(prefix)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${CitizenMenu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1756,7 +1750,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1764,10 +1758,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'randomphotomenu': {
-var unicorn = await getBuffer(picak+'Random Pic Menu')
+case 'Nawtymenu': {
+var unicorn = await getBuffer(picak+'Anime Nawty Menu')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${randphotomenu(prefix)}`,
+text: `Greetings @${sender.split("@")[0]}\n\n${Nawtymenu(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1777,7 +1771,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1785,10 +1779,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'randomvideomenu': {
-var unicorn = await getBuffer(picak+'Random Vid Menu')
+case 'Animes': {
+var unicorn = await getBuffer(picak+'Animes')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${randvideomenu(prefix)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${Animes(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1798,7 +1792,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1806,10 +1800,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'photooxymenu': {
-var unicorn = await getBuffer(picak+'Photooxy Menu')
+case 'stickers!': {
+var unicorn = await getBuffer(picak+'stickers!')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${photooxymenu(prefix)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${stickers(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1819,7 +1813,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -1827,10 +1821,10 @@ mentionedJid:[sender],
 })
 }
 break
-case 'ephoto360menu': {
-var unicorn = await getBuffer(picak+'Photo360 Menu')
+case 'Database': {
+var unicorn = await getBuffer(picak+'Database')
 sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${ephoto360menu(prefix)}`,
+text: `Hi @${sender.split("@")[0]}\n\n${Database(prefix)}`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -1840,133 +1834,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'nsfwmenu': {
-var unicorn = await getBuffer(picak+'Anime NSFW Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${nsfwmenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'animemenu': {
-var unicorn = await getBuffer(picak+'Anime Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${animemenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'stickermenu': {
-var unicorn = await getBuffer(picak+'Sticker Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${stickermenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'databasemenu': {
-var unicorn = await getBuffer(picak+'Database Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${databasemenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'aimenu': {
-var unicorn = await getBuffer(picak+'OpenAI Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${aimenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
-}
-}
-})
-}
-break
-case 'bugmenu': {
-var unicorn = await getBuffer(picak+'Bug Menu')
-sendXeonBotIncMessage(from, { 
-text: `Hi @${sender.split("@")[0]}\n\n${bugmenu(prefix)}`,
-mentions:[sender],
-contextInfo:{
-mentionedJid:[sender],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"title": botname, 
-"containsAutoReply": true,
-"mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
@@ -2154,7 +2022,7 @@ XeonBotInc.sendMessage(from, {text: `Here @${teman.split("@")[0]}`, mentions: [t
 break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 me = m.sender
-teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 https://i.ibb.co/y6XmZ2b/donate.png`
+teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 PayPal email bhell8552@gmail.com`
 sendXeonBotIncMessage(from, { 
 text: teks,
 mentions:[sender],
@@ -2177,7 +2045,7 @@ mentionedJid:[sender],
 }
 break
 case 'repo': case 'repository': {
-	const githubRepoURL = 'https://github.com/DGXeon/CheemsBot-MD8'
+	const githubRepoURL = 'no repo its private bot'
   try {
     const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/)
     const response = await axios.get(`https://api.github.com/repos/${username}/${repoName}`)
@@ -2572,7 +2440,7 @@ break
                 respon = `
 Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
 
-💻 Info Server
+ Server
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
 _NodeJS Memory Usaage_
