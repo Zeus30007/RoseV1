@@ -1588,7 +1588,7 @@ mentionedJid:[sender],
 "title": botname, 
 "containsAutoReply": true,
 "mediaType": 1, 
-"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
+"thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.mp4"),
 "mediaUrl": `${wagc}`,
 "sourceUrl": `${wagc}`
 }
