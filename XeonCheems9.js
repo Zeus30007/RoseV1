@@ -1530,7 +1530,7 @@ const repf = await XeonBotInc.sendMessage(from, {
 contacts: { 
 displayName: `${list.length} Contact`, 
 contacts: list }, mentions: [sender] }, { quoted: m })
-XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, i assume you want to know my owner? well`, mentions: [sender]}, { quoted: repf })
+XeonBotInc.sendMessage(from, { text : `Greetings @${sender.split("@")[0]},my master `, mentions: [sender]}, { quoted: repf })
 }
 break
 case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
@@ -1539,63 +1539,52 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let timestampe = speed()
             let latensie = speed() - timestampe
             xeonezy = `┌─☠︎︎
-卐ɴᴀᴢɪ ᴋɪᴛʟᴇʀ卐
+𝕹𝖆𝖙𝖍𝖆𝖓
 
-  卐  ${pushname} 
-  卐  ${xeonytimewisher} ✞︎
+𓇻 ${pushname} 
+  𓇻  ${xeonytimewisher} 
   
-卐ɴᴀᴢɪ卐┈ ⳹
-                 
-            ⢀⣴⣦⡀
-     ⠀⠀ ⠀⣴⣾⣿⣿⠟⠀⠀⠀⠀
-   ⠀⠀⠀⣠⣾⣿⣿⠟⠁⠀⢀⣰⣦⡀⠀⠀
-   ⠀⠀⠀⠺⣿⣿⣿⣧⡀⠀⣴⣾⣿⣿⣿⣦⡀⠀⠀
-   ⠀⣠⣄⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⡟⠋⠻⣿⣿⣦⡀⠀
-   ⢾⣿⣿⣷⡀⠀⠀⢈⣿⣿⣿⣿⣇⠀⠀⠀⠈⢿⣿⣿⠇
-   ⠀⠙⢿⣿⣿⣦⣶⣿⣿⣿⠿⣿⣿⣷⣄⠀⠀⠀⠙⠁
-       ⠀⠙⢿⣿⣿⡿⠟⠀⠀ ⣿⣿⣿⣷⠄⠀⠀
-      ⠀⠀⠀⠙⠛⠀⠀⠀⣰⣿⣿⣿⠟⠁⠀⠀
-        ⠀⠀⠀⠀⢠⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+𓇻𝕹𝖆𝖙𝖍𝖆𝖓┈ ⳹
 
-       ݈卐ᴋɪᴛʟᴇʀ 𝙄𝙉𝙁𝙊卐        
-卐 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-卐 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-卐 ᴋɪᴛʟᴇʀ : ${global.botname}
-卐 𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
-卐 𝗣𝗿𝗲𝗳𝗶𝘅 :  NO-PREFIX 
-卐 𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
-卐 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-卐 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+       ݈𓇻𝙄𝙉𝙁𝙊𓇻       
+ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+ 𝕹𝖆𝖙𝖍𝖆𝖓 : ${global.botname}
+𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
+ 𝗣𝗿𝗲𝗳𝗶𝘅 :  NO-PREFIX 
+𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
+ 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
 
-      卐𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊卐
-卐𝗡𝗮𝗺𝗲 : ${pushname}
-卐𝗡𝘂𝗺𝗯𝗲𝗿 : @${me.split('@')[0]}
-卐𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : ${isPrem ? '✅' : `❌`}
+      𓇻‎𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊𓇻
+𓇻𝗡𝗮𝗺𝗲 : ${pushname}
+𓇻𝗡𝘂𝗺𝗯𝗲𝗿 : @${me.split('@')[0]}
+𓇻𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : ${isPrem ? '✅' : `❌`}
 
-     卐𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊卐 
-卐 𝗧𝗶𝗺𝗲 : ${xtime}
-卐 𝗗𝗮𝘁𝗲 : ${xdate}
+     𓇻𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊𓇻 
+𓇻 𝗧𝗶𝗺𝗲 : ${xtime}
+𓇻 𝗗𝗮𝘁𝗲 : ${xdate}
 
-卐ɴᴀᴢɪ卐┈ ⳹
+𝕹𝖆𝖙𝖍𝖆𝖓 𓇻‎┈ ⳹
 
-卐.allmenu
-卐.downloadmenu
-卐.funmenu
-卐.aimenu
-卐.groupmenu
-卐.ownermenu
-卐.photooxymenu
-卐.ephoto360menu
-卐.animemenu
-卐.nsfwmenu
-卐.randomphotomenu
-卐.randomvideomenu
-卐.stickermenu݈.databasemenu
-卐.stalkermenu
-卐.bugmenu
-卐.othermenu
+𓇻.allmenu
+𓇻.downloadmenu
+𓇻.funmenu
+𓇻.aimenu
+𓇻.groupmenu
+𓇻.ownermenu
+𓇻.photooxymenu
+𓇻.ephoto360menu
+𓇻.animemenu
+𓇻.nsfwmenu
+𓇻.randomphotomenu
+𓇻.randomvideomenu
+𓇻.stickermenu݈.databasemenu
+𓇻.stalkermenu
+𓇻.bugmenu
+𓇻.othermenu
 
-卐ɴᴀᴢɪ卐 ⳹`
+𓇻𝕹𝖆𝖙𝖍𝖆𝖓 𓇻‎⳹`
             let ments = [ownernya, me, mark]        
            XeonBotInc.sendMessage(from, { 
 text: xeonezy,
