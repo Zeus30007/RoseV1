@@ -1,6 +1,4 @@
-Here’s the updated README template for your RoseV1 WhatsApp bot:
 
----
 
 # **RoseV1: The All-Powerful WhatsApp Bot**
 
@@ -66,7 +64,7 @@ We welcome contributions from everyone. To get started:
 
 ## 🚀 **Contributors**
 
-Idriel is made possible by the hard work of these awesome contributors. Thank you! 💖
+Rose is made possible by the hard work of these awesome contributors. Thank you! 💖
 
 <table>
   <tr>
