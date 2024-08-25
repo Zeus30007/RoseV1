@@ -4,7 +4,7 @@ const fs = require("fs")
 //aumto presence update
 global.autoReading = true //auto recording (true to on, false to off)
 global.autoTyping = false //auto tying (true to on, false to off)
-global.autoRecord = false //auto recording (true to on, false to off)
+global.autoRecord = true //auto recording (true to on, false to off)
 global.autoblockmorroco = false //auto block 212 (true to on, false to off)
 global.autokickmorroco = false //auto kick 212 (true to on, false to off) 
 global.antispam = false //auto kick spammer (true to on, false to off)
@@ -22,17 +22,17 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.ownernomer = "255626967587" //ur owner number2
-global.ownername = "⨺⃝𝙼𝙸𝚁𝙰𝙽 𝙵𝙾𝚇𓃦" //ur owner name
+global.ownernomer = "918618971837" //ur owner number2
+global.ownername = "NATHAN♱" //ur owner name
 global.ytname = "YT: " //ur yt chanel name
 global.socialm = "GitHub: " //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
 
 //new
 global.botname = "⨺⃝𝚁𝙾𝚂𝙴𓃦"
-global.ownernumber = '27622590108'
+global.ownernumber = '918618971837'
 global.ownername = '⨺⃝𝙼𝙸𝚁𝙰𝙽 𝙵𝙾𝚇𓃦'
-global.ownerNumber = ["255626967587"]
+global.ownerNumber = ["48699514053"]
 global.ownerweb = ""
 global.websitex = ""
 global.wagc = ""
@@ -41,7 +41,7 @@ global.wm = "ᴍᴀɪᴋɪ Bot Inc."
 global.botscript = 'https://github.com/Zeus30007/Mello' //script link
 global.packname = "Hail ⨺⃝𝙼𝙸𝚁𝙰𝙽 𝙵𝙾𝚇𓃦"
 global.author = "⨺⃝the supreme force"
-global.creator = "255626967587"
+global.creator = "918618971837"
 global.prefa = ['','!','.','#','&']
 global.sessionName = 'session'
 global.hituet = 0
